@@ -8,7 +8,7 @@ public class EmployeeRepository {
     public List<Employee> findAll(){
 
         // Employees are kept in memory for simplicity
-        Employee anna = new FullTimeEmployee("Anna Smith", 2000);
+        Employee anna = new FullTimeEmployee("PP Smith", 2000);
         Employee billy = new FullTimeEmployee("Billy Leech", 920);
 
         Employee steve = new PartTimeEmployee("Steve Jones", 800);

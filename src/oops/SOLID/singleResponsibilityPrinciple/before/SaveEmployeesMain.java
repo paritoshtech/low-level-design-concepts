@@ -10,7 +10,8 @@ public class SaveEmployeesMain {
 
         // Save all
         for (Employee e : employees){
-            Employee.save(e);
+//            Employee.save(e);
+            e.save();
         }
     }
 }
