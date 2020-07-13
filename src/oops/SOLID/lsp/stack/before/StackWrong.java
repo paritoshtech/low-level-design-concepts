@@ -36,7 +36,7 @@ public class StackWrong extends ArrayList<Integer>{
 		System.out.println(st.top());
 		st.pop();
 		System.out.println(st.top());
-		st.clear();
-		System.out.println(st.top());
+//		st.clear();
+//		System.out.println(st.top());
 	}
 }
